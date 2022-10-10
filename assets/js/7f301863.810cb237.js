@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[3178],{3965:e=>{e.exports=JSON.parse('{"title":"mind-garden","slug":"/category/mind-garden","permalink":"/app/docs/category/mind-garden","navigation":{"previous":{"title":"Hello","permalink":"/app/docs/Hello"},"next":{"title":"Dev Notes","permalink":"/app/docs/category/dev-notes"}}}')}}]);
