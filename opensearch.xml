@@ -4,8 +4,8 @@
   <ShortName>Coffee Codes Life</ShortName>
   <Description>Search Coffee Codes Life</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://lejencodes.github.io/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://lejencodes.github.io/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://lejencodes.github.io/opensearch.xml" />
-  <moz:SearchForm>https://lejencodes.github.io/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://lejencodes.com/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://lejencodes.com/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://lejencodes.com/opensearch.xml" />
+  <moz:SearchForm>https://lejencodes.com/</moz:SearchForm>
 </OpenSearchDescription>

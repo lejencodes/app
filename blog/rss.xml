@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Coffee Codes Life Blog</title>
-        <link>https://lejencodes.github.io/blog</link>
+        <link>https://lejencodes.com/blog</link>
         <description>Coffee Codes Life Blog</description>
         <lastBuildDate>Mon, 10 Oct 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>en</language>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://lejencodes.github.io/blog/welcome</link>
+            <link>https://lejencodes.com/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Mon, 10 Oct 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to my digital-garden / mind-garden]]></description>
