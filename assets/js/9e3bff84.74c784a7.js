@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[949],{662:a=>{a.exports=JSON.parse('{"label":"heroku","permalink":"/blog/tags/heroku","allTagsPath":"/blog/tags","count":2}')}}]);
