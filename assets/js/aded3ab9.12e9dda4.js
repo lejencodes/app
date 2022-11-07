@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[5170],{8897:e=>{e.exports=JSON.parse('{"label":"pi","permalink":"/docs/tags/pi","allTagsPath":"/docs/tags","count":1,"items":[{"id":"mind-garden/Dev Notes/OS/pi/pi-setup","title":"pi setup","description":"NordVPN","permalink":"/docs/mind-garden/Dev Notes/OS/pi/pi-setup"}]}')}}]);
