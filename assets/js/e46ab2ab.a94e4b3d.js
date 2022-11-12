@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[8532],{5132:s=>{s.exports=JSON.parse('{"label":"samba","permalink":"/docs/tags/samba","allTagsPath":"/docs/tags","count":1,"items":[{"id":"Dev Notes/OS/pi/Pi-setup","title":"Pi-setup","description":"NordVPN","permalink":"/docs/Dev Notes/OS/pi/Pi-setup"}]}')}}]);
