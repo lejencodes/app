@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[5826],{7661:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/python","page":1,"postsPerPage":5,"totalPages":1,"totalCount":5,"blogDescription":"CoffeeCodesLife!","blogTitle":"CoffeeCodes blog!"}')}}]);
