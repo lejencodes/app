@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[9189],{7269:e=>{e.exports=JSON.parse('{"title":"Financial","slug":"/category/financial","permalink":"/docs/category/financial","navigation":{"previous":{"title":"Dotnet Test Enumerate","permalink":"/docs/dotnet/dotnet-test-enumerate"},"next":{"title":"Crypto","permalink":"/docs/financial/crypto"}}}')}}]);

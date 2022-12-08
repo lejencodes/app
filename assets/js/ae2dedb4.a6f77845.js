@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[1151],{6956:e=>{e.exports=JSON.parse('{"label":"repo","permalink":"/docs/tags/repo","allTagsPath":"/docs/tags","count":1,"items":[{"id":"tools/git-multiple-repo","title":"Git Multiple Repo","description":"Pre-requisites","permalink":"/docs/tools/git-multiple-repo"}]}')}}]);
