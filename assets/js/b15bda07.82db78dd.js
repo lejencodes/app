@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[6747],{2270:i=>{i.exports=JSON.parse('{"title":"Obsidian","slug":"/category/obsidian","permalink":"/docs/category/obsidian","navigation":{"previous":{"title":"Setup","permalink":"/docs/linux/ubuntu/Setup"},"next":{"title":"Obsidian Admonition","permalink":"/docs/obsidian/obsidian-admonition"}}}')}}]);
