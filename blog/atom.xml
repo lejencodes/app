@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lejencodes.com/blog</id>
     <title>Coffee Codes Life Blog</title>
-    <updated>2022-12-03T00:00:00.000Z</updated>
+    <updated>2022-12-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lejencodes.com/blog"/>
     <subtitle>Coffee Codes Life Blog</subtitle>
     <icon>https://lejencodes.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Attempt To Fix 404 Error Google Search Console]]></title>
+        <id>attempt-to-fix-404-error-google-search-console</id>
+        <link href="https://lejencodes.com/blog/attempt-to-fix-404-error-google-search-console"/>
+        <updated>2022-12-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Based on Research Done]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="based-on-research-done">Based on Research Done<a class="hash-link" href="#based-on-research-done" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="downside">Downside?<a class="hash-link" href="#downside" title="Direct link to heading">​</a></h3><p>A 404 is not necessarily an error. If you removed the pages and you didn’t set up different URLs to which the server
+should redirect requests for those pages, then a 404 response is correct.</p><p>No penalty as such but indirect impact on your website is evident, when you have so much of web pages 404. 404 says the
+page is not found but it doesn't say the page is deleted or permanently deleted and the visitor is not going to find it
+again.</p><p>Google understands that. They’re reporting 404 responses, not errors. You’re not being hurt because your server responds
+with a 404 when Googlebot requests pages that you’ve removed. You are potentially passing up on a benefit, however. If
+those pages had a decent amount of link equity, that equity would be passed on to pages to which you redirected requests
+for the old pages. This would also make for a better user experience. Of course, all of this is based on the assumption
+that you’d be redirecting to pages that served to provide people looking for the old pages with the information they
+seek.</p><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="waste-of-crawl-budget">Waste of Crawl Budget<a class="hash-link" href="#waste-of-crawl-budget" title="Direct link to heading">​</a></h3><p>With 404, Google waits for 2 to 3 months to ensure the page is removed. With 404, the Other impact would be that you
+waste your crawl budget. The crawler spends time in crawling the periods which are not present on your website. This
+lead to trouble in discovering new pages on your website.</p><p>With more pages failing, Google reduces your crawl budget over time. This will reduce the timely indexing of new pages
+on your website.</p><h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="possible-solution">Possible Solution?<a class="hash-link" href="#possible-solution" title="Direct link to heading">​</a></h3><p>It is better to issue 410 since it instructs that the page is permanently deleted. This helps Google to remove the URL
+from its index quickly. The next time Googlebot visits the page and sees the 410 status code, Google will then remove
+the page from it’s index within 24 hours. Google will never check again to see if the page has come back.</p><p>Here are some different types of HTTP status codes:</p><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#f8f8f2;--prism-background-color:#272822"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#f8f8f2"><span class="token plain">100s: Informational requests</span><br></span><span class="token-line" style="color:#f8f8f2"><span class="token plain">200s: Successful requests</span><br></span><span class="token-line" style="color:#f8f8f2"><span class="token plain">300s: Redirects</span><br></span><span class="token-line" style="color:#f8f8f2"><span class="token plain">400s: Client-side errors</span><br></span><span class="token-line" style="color:#f8f8f2"><span class="token plain">500s: Server-side errors</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p>Depending on your browser, the 410 error can appear in a few different ways:</p><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#f8f8f2;--prism-background-color:#272822"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#f8f8f2"><span class="token plain">410 Gone</span><br></span><span class="token-line" style="color:#f8f8f2"><span class="token plain">Gone</span><br></span><span class="token-line" style="color:#f8f8f2"><span class="token plain">Error 410</span><br></span><span class="token-line" style="color:#f8f8f2"><span class="token plain">HTTP Status 410</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+        <author>
+            <name>Lejen</name>
+            <uri>https://lejencodes.com</uri>
+        </author>
+        <category label="search-console" term="search-console"/>
+        <category label="google" term="google"/>
+        <category label="seo" term="seo"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Python SEO Analyzer]]></title>
         <id>python-seo-analyzer</id>
