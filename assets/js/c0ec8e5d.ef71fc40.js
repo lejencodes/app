@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[1612],{8429:s=>{s.exports=JSON.parse('{"label":"bash","permalink":"/docs/tags/bash","allTagsPath":"/docs/tags","count":1,"items":[{"id":"tools/bash-alias-setup","title":"Bash Alias Setup","description":"mac file location","permalink":"/docs/tools/bash-alias-setup"}]}')}}]);
