@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[7688],{4610:s=>{s.exports=JSON.parse('{"title":"Tools","slug":"/category/tools","permalink":"/docs/category/tools","navigation":{"previous":{"title":"Package.json sample","permalink":"/docs/site/package.json sample"},"next":{"title":"Bash Alias Setup","permalink":"/docs/tools/bash-alias-setup"}}}')}}]);
