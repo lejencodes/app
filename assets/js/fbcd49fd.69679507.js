@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[2605],{4298:e=>{e.exports=JSON.parse('{"label":"worktree","permalink":"/docs/tags/worktree","allTagsPath":"/docs/tags","count":1,"items":[{"id":"tools/git-worktree","title":"Git Worktree","description":"git worktree add","permalink":"/docs/tools/git-worktree"}]}')}}]);
