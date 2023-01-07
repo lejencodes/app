@@ -4,10 +4,29 @@
         <title>Coffee Codes Life Blog</title>
         <link>https://lejencodes.com/blog</link>
         <description>Coffee Codes Life Blog</description>
-        <lastBuildDate>Wed, 04 Jan 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Jan 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[What Is The Robot Framework, And How Does It Function?]]></title>
+            <link>https://lejencodes.com/blog/what-is-the-robot-framework-and-how-does-it-function</link>
+            <guid>what-is-the-robot-framework-and-how-does-it-function</guid>
+            <pubDate>Sat, 07 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[What is Robot Framework?]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="what-is-robot-framework">What is Robot Framework?<a class="hash-link" href="#what-is-robot-framework" title="Direct link to heading">​</a></h2><p>Robot Framework is a generic open-source automation framework for acceptance testing, acceptance test-driven
+development (ATDD), and robotic process automation (RPA). Robot Framework allows testers to easily write automated test
+scripts using a keyword-driven testing approach.</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="how-does-robotframework-function">How does RobotFramework Function?<a class="hash-link" href="#how-does-robotframework-function" title="Direct link to heading">​</a></h2><p>To test both Android and iOS apps, Robot Framework is incredibly simple to set up, use, and change.</p><p>Its test syntax is built around keywords, which are simple to alter and further configure to match the application being
+tested.</p><p>Additionally, the test libraries that may be implemented in Python, Java, and even some additional languages are
+supported, allowing for easy extension of a testing capabilities offered by Robot Framework.</p><p>The way those aforementioned keywords function is one of Robot Framework's coolest features.</p><p>Users can quickly build new keywords by starting from scratch or by using the existing sample ones.</p><p>If you look for more generic information about Robot Framework, there are plenty of great examples and online
+documentation on <a href="https://github.com/robotframework/robotframework" target="_blank" rel="noopener noreferrer">GitHub</a>.</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="how-to-write-scripts-for-automated-tests-in-robotframework">How to write scripts for automated tests in RobotFramework<a class="hash-link" href="#how-to-write-scripts-for-automated-tests-in-robotframework" title="Direct link to heading">​</a></h2><p>Robot Framework makes it simple to create automated test scripts. In addition to being utilized to carry out activities,
+keywords also serve as assertion methods. They may experience arguments in an effort to shape their conduct.</p><p>The examples "Open Browser" and "Title Should Be" up top are two good ones. Since many test libraries include the
+necessary automation components as keywords, you don't necessarily need to write Python or Java code.</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="notes-on-robotframework-setup-and-basics">Notes on RobotFramework Setup and Basics<a class="hash-link" href="#notes-on-robotframework-setup-and-basics" title="Direct link to heading">​</a></h2><p>Visit documentation at <a href="https://lejencodes.com/docs/automation/robotframework/robot-framework-setup-and-basics" target="_blank" rel="noopener noreferrer">link</a></p>]]></content:encoded>
+            <category>robotframework</category>
+            <category>rf</category>
+            <category>automation</category>
+            <category>robot</category>
+        </item>
         <item>
             <title><![CDATA[Git Submodule Command]]></title>
             <link>https://lejencodes.com/blog/git-submodule-command</link>
