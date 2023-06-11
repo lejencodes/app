@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[4138],{4809:s=>{s.exports=JSON.parse('{"label":"ArgoCD","permalink":"/docs/tags/argo-cd","allTagsPath":"/docs/tags","count":1,"items":[{"id":"ci/basic-of-argocd","title":"Basic of ArgoCD","description":"Getting started","permalink":"/docs/ci/basic-of-argocd"}]}')}}]);

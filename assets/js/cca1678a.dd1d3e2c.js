@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[7441],{9011:a=>{a.exports=JSON.parse('{"label":"digital-garden","permalink":"/blog/tags/digital-garden","allTagsPath":"/blog/tags","count":1}')}}]);

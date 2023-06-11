@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[5175],{356:i=>{i.exports=JSON.parse('{"label":"admonition","permalink":"/app/docs/tags/admonition","allTagsPath":"/app/docs/tags","count":1,"items":[{"id":"obsidian/obsidian-admonition","title":"Obsidian Admonition","description":"Admonition","permalink":"/app/docs/obsidian/obsidian-admonition"}]}')}}]);

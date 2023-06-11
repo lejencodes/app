@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Coffee Codes Life Blog</title>
-        <link>https://lejencodes.com/blog</link>
+        <link>https://lejencodes.github.io/app/blog</link>
         <description>Coffee Codes Life Blog</description>
         <lastBuildDate>Sat, 07 Jan 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>en</language>
         <item>
             <title><![CDATA[What Is The Robot Framework, And How Does It Function?]]></title>
-            <link>https://lejencodes.com/blog/what-is-the-robot-framework-and-how-does-it-function</link>
+            <link>https://lejencodes.github.io/app/blog/what-is-the-robot-framework-and-how-does-it-function</link>
             <guid>what-is-the-robot-framework-and-how-does-it-function</guid>
             <pubDate>Sat, 07 Jan 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[What is Robot Framework?]]></description>
@@ -29,7 +29,7 @@ necessary automation components as keywords, you don't necessarily need to write
         </item>
         <item>
             <title><![CDATA[Git Submodule Command]]></title>
-            <link>https://lejencodes.com/blog/git-submodule-command</link>
+            <link>https://lejencodes.github.io/app/blog/git-submodule-command</link>
             <guid>git-submodule-command</guid>
             <pubDate>Wed, 04 Jan 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Adding or Cloning a submodule]]></description>
@@ -45,7 +45,7 @@ Fix by remove the folder and update again</p></blockquote><div class="language-b
         </item>
         <item>
             <title><![CDATA[A Step By Step Guide To Setting Up Your Own Pi Hole And Enjoying Ad Free Browsing]]></title>
-            <link>https://lejencodes.com/blog/a-step-by-step-guide-to-setting-up-your-own-pi-hole-and-enjoying-ad-free-browsing</link>
+            <link>https://lejencodes.github.io/app/blog/a-step-by-step-guide-to-setting-up-your-own-pi-hole-and-enjoying-ad-free-browsing</link>
             <guid>a-step-by-step-guide-to-setting-up-your-own-pi-hole-and-enjoying-ad-free-browsing</guid>
             <pubDate>Wed, 14 Dec 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Intro]]></description>
@@ -110,7 +110,7 @@ Type this command:</p><div class="codeBlockContainer_Ckt0 theme-code-block" styl
         </item>
         <item>
             <title><![CDATA[Attempt To Fix 404 Error Google Search Console]]></title>
-            <link>https://lejencodes.com/blog/attempt-to-fix-404-error-google-search-console</link>
+            <link>https://lejencodes.github.io/app/blog/attempt-to-fix-404-error-google-search-console</link>
             <guid>attempt-to-fix-404-error-google-search-console</guid>
             <pubDate>Tue, 13 Dec 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Based on Research Done]]></description>
@@ -134,7 +134,7 @@ the page from it’s index within 24 hours. Google will never check again to see
         </item>
         <item>
             <title><![CDATA[Python SEO Analyzer]]></title>
-            <link>https://lejencodes.com/blog/python-seo-analyzer</link>
+            <link>https://lejencodes.github.io/app/blog/python-seo-analyzer</link>
             <guid>python-seo-analyzer</guid>
             <pubDate>Sat, 03 Dec 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Get started]]></description>
@@ -145,7 +145,7 @@ the page from it’s index within 24 hours. Google will never check again to see
         </item>
         <item>
             <title><![CDATA[Repo Clone with SSH]]></title>
-            <link>https://lejencodes.com/blog/repo-clone-with-ssh</link>
+            <link>https://lejencodes.github.io/app/blog/repo-clone-with-ssh</link>
             <guid>repo-clone-with-ssh</guid>
             <pubDate>Sun, 06 Nov 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[This will save up a lot of your time trying to fix SSL Error, certification problem]]></description>
@@ -155,7 +155,7 @@ the page from it’s index within 24 hours. Google will never check again to see
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://lejencodes.com/blog/welcome</link>
+            <link>https://lejencodes.github.io/app/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Mon, 10 Oct 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to my digital-garden / mind-garden. Always changing, continuously improve]]></description>
@@ -166,7 +166,7 @@ the page from it’s index within 24 hours. Google will never check again to see
         </item>
         <item>
             <title><![CDATA[Ubuntu Clean Up Command]]></title>
-            <link>https://lejencodes.com/blog/ubuntu-clean-up-command</link>
+            <link>https://lejencodes.github.io/app/blog/ubuntu-clean-up-command</link>
             <guid>ubuntu-clean-up-command</guid>
             <pubDate>Tue, 13 Sep 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[1. Get rid of packages that are no longer required. If you read the apt-get commands guide, you might have come across]]></description>
@@ -180,7 +180,7 @@ it keeps a cache of previously downloaded and installed packages even after they
         </item>
         <item>
             <title><![CDATA[Setup Visual Studio Code in Ubuntu]]></title>
-            <link>https://lejencodes.com/blog/setup-visual-studio-code-in-ubuntu</link>
+            <link>https://lejencodes.github.io/app/blog/setup-visual-studio-code-in-ubuntu</link>
             <guid>setup-visual-studio-code-in-ubuntu</guid>
             <pubDate>Sun, 17 Jul 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[You could install Visual Studio Code using apt:]]></description>
@@ -193,7 +193,7 @@ version (For example, on 20.04, amd64 architecture) you could use official mono 
         </item>
         <item>
             <title><![CDATA[Create Python Virtual Environment]]></title>
-            <link>https://lejencodes.com/blog/create-python-virtual-environment</link>
+            <link>https://lejencodes.github.io/app/blog/create-python-virtual-environment</link>
             <guid>create-python-virtual-environment</guid>
             <pubDate>Fri, 06 May 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[1. Let’s start by installing the python3-venv package that provides the venv module.]]></description>
@@ -204,7 +204,7 @@ manager, the standard Python library and other supporting files.</li><li>To star
         </item>
         <item>
             <title><![CDATA[Setup and Pull Upstream Changes]]></title>
-            <link>https://lejencodes.com/blog/git-setup-and-pull-upstream-changes</link>
+            <link>https://lejencodes.github.io/app/blog/git-setup-and-pull-upstream-changes</link>
             <guid>git-setup-and-pull-upstream-changes</guid>
             <pubDate>Thu, 05 May 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Step 1: Pull upstream changes]]></description>
@@ -215,7 +215,7 @@ commit.</p><p><code>git commit -a</code></p><h2 class="anchor anchorWithHideOnSc
         </item>
         <item>
             <title><![CDATA[Top 5 Mistakes I Made as RPA Developer and Common Pitfall]]></title>
-            <link>https://lejencodes.com/blog/top-5-mistakes-i-made-as-rpa-developer-and-common-pitfall</link>
+            <link>https://lejencodes.github.io/app/blog/top-5-mistakes-i-made-as-rpa-developer-and-common-pitfall</link>
             <guid>top-5-mistakes-i-made-as-rpa-developer-and-common-pitfall</guid>
             <pubDate>Tue, 03 May 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[1. When Everything Seems too Easy]]></description>
@@ -247,24 +247,24 @@ as a single bot.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Keep Your Free Heroku App Alive]]></title>
-            <link>https://lejencodes.com/blog/keep-your-free-heroku-app-alive</link>
+            <link>https://lejencodes.github.io/app/blog/keep-your-free-heroku-app-alive</link>
             <guid>keep-your-free-heroku-app-alive</guid>
             <pubDate>Mon, 02 May 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Thanks to Heroku, now I have my personal site :)]]></description>
             <content:encoded><![CDATA[<p><del>Thanks to Heroku, now I have my personal site :)</del></p><p>Too bad, heroku no longer offer free dyno..</p><blockquote><p>If an app has a free web dyno, and that dyno receives no web traffic in a 30-minute period, it will sleep.</p></blockquote><blockquote><p>Every Heroku account is allocated a pool of free dyno hours, which can be used by Personal apps - apps that are not
 part of a Heroku Team or Enterprise Team.</p></blockquote><p>If you want to know more about free dyno hours, visit official
 site <a href="https://devcenter.heroku.com/articles/free-dyno-hours" target="_blank" rel="noopener noreferrer">here</a></p><h1>Method - Cron-job</h1><p>I am using a free tier account and I don't want my visitor to wait for dyno to re-launch everytime when they visit the
-site. This is the method I used for keeping my site alive.</p><ul><li>Signup on <a href="https://cron-job.org/en/" target="_blank" rel="noopener noreferrer">https://cron-job.org/en/</a></li><li>Once the signup is completed, verify your email.</li><li>Once you log in successfully, click on the Cronjobs tab. And click on “Create cronjob”.</li></ul><p><img loading="lazy" alt="cron-job" src="/assets/images/cron-job-3a8fcab5c72bca4674f5d39d8263eff0.png" width="942" height="231" class="img_ev3q"></p><ul><li>Now you can fill in the details. Make sure you enter URL according to your GET method. If your GET method was for
+site. This is the method I used for keeping my site alive.</p><ul><li>Signup on <a href="https://cron-job.org/en/" target="_blank" rel="noopener noreferrer">https://cron-job.org/en/</a></li><li>Once the signup is completed, verify your email.</li><li>Once you log in successfully, click on the Cronjobs tab. And click on “Create cronjob”.</li></ul><p><img loading="lazy" alt="cron-job" src="/app/assets/images/cron-job-3a8fcab5c72bca4674f5d39d8263eff0.png" width="942" height="231" class="img_ev3q"></p><ul><li>Now you can fill in the details. Make sure you enter URL according to your GET method. If your GET method was for
 route “/home,” make sure your URL is <a href="https://cron-job.org/en/" target="_blank" rel="noopener noreferrer">https://your-app.herokuapp.com/home</a>.</li></ul><p><strong>If you are not verifying Heroku app with your credit card, you might want to go for user-defined schedule.</strong></p><ul><li>When you reach the Schedule section, click on the option User-defined. Now make sure you select all the values in the
 columns Days of Month Days of Week, and Months.</li><li>In the Hours column, select all values except for any seven. I selected all values except for 0,1,2,3,4,5,6, which
 means my app will be asleep from 12 a.m. to 7 a.m. (no job at 6 a.m. means the app will be asleep at 6 a.m.). This
-step is essential as it satisfies the restriction for the free tier.</li><li>In the Minutes column, select only 0 and 30 because your app will only sleep every 30 minutes.</li></ul><p>This is how your schedule settings will look in the end. Once everything looks fine, create your cron job.</p><p>The last picture is with the normal settings</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="user-defined-settings">User Defined Settings<a class="hash-link" href="#user-defined-settings" title="Direct link to heading">​</a></h2><p><img loading="lazy" alt="cron-job-custom-schedule" src="/assets/images/cron-job-custom-schedule-d753bf2a0dc59d3112692db06c87dca7.gif" width="704" height="290" class="img_ev3q"></p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="normal-settings">Normal Settings<a class="hash-link" href="#normal-settings" title="Direct link to heading">​</a></h2><p><img loading="lazy" alt="cron-job-details" src="/assets/images/cron-job-details-143aaa02aa7f4dfc690b79f5a11cd375.png" width="720" height="858" class="img_ev3q"></p><p>Congratulations! You have successfully kept your Heroku app alive.</p>]]></content:encoded>
+step is essential as it satisfies the restriction for the free tier.</li><li>In the Minutes column, select only 0 and 30 because your app will only sleep every 30 minutes.</li></ul><p>This is how your schedule settings will look in the end. Once everything looks fine, create your cron job.</p><p>The last picture is with the normal settings</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="user-defined-settings">User Defined Settings<a class="hash-link" href="#user-defined-settings" title="Direct link to heading">​</a></h2><p><img loading="lazy" alt="cron-job-custom-schedule" src="/app/assets/images/cron-job-custom-schedule-d753bf2a0dc59d3112692db06c87dca7.gif" width="704" height="290" class="img_ev3q"></p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="normal-settings">Normal Settings<a class="hash-link" href="#normal-settings" title="Direct link to heading">​</a></h2><p><img loading="lazy" alt="cron-job-details" src="/app/assets/images/cron-job-details-143aaa02aa7f4dfc690b79f5a11cd375.png" width="720" height="858" class="img_ev3q"></p><p>Congratulations! You have successfully kept your Heroku app alive.</p>]]></content:encoded>
             <category>heroku</category>
             <category>cronjob</category>
         </item>
         <item>
             <title><![CDATA[AWS - Block Public Access Settings in S3]]></title>
-            <link>https://lejencodes.com/blog/aws-block-public-access-settings-in-s3</link>
+            <link>https://lejencodes.github.io/app/blog/aws-block-public-access-settings-in-s3</link>
             <guid>aws-block-public-access-settings-in-s3</guid>
             <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[BlockPublicAcls - This prevents any new ACLs to be created or existing ACLs being modified which enable public access to]]></description>
@@ -277,7 +277,7 @@ able to publicly access objects in the bucket.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Reduce Energy Consumption in Raspberry pi]]></title>
-            <link>https://lejencodes.com/blog/reduce-energy-consumption-in-raspberry-pi</link>
+            <link>https://lejencodes.github.io/app/blog/reduce-energy-consumption-in-raspberry-pi</link>
             <guid>reduce-energy-consumption-in-raspberry-pi</guid>
             <pubDate>Fri, 29 Apr 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Turn OFF HDMI output]]></description>
@@ -286,7 +286,7 @@ able to publicly access objects in the bucket.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Python Logging Output]]></title>
-            <link>https://lejencodes.com/blog/python-logging-output</link>
+            <link>https://lejencodes.github.io/app/blog/python-logging-output</link>
             <guid>python-logging-output</guid>
             <pubDate>Wed, 27 Apr 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Complete table showing the various information that the logging system can output:]]></description>
@@ -295,7 +295,7 @@ able to publicly access objects in the bucket.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Coffee Grounds]]></title>
-            <link>https://lejencodes.com/blog/coffee-grounds</link>
+            <link>https://lejencodes.github.io/app/blog/coffee-grounds</link>
             <guid>coffee-grounds</guid>
             <pubDate>Tue, 26 Apr 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Interesting thoughts this morning when I am brewing my cup of coffee. When dumping my coffee grounds to the bin and I am]]></description>
@@ -321,7 +321,7 @@ most people, but they may be problematic if consumed in excess.</p></li></ul>]]>
         </item>
         <item>
             <title><![CDATA[Do you vape?]]></title>
-            <link>https://lejencodes.com/blog/do-you-vape</link>
+            <link>https://lejencodes.github.io/app/blog/do-you-vape</link>
             <guid>do-you-vape</guid>
             <pubDate>Mon, 25 Apr 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Vaper since Year 2015. Can't remember the hype of vaping few years back.]]></description>
@@ -329,13 +329,13 @@ most people, but they may be problematic if consumed in excess.</p></li></ul>]]>
 Been using various kind of mods, box-mods, squonk mods. So far, the only still surviving is my Taifun - Scarab (
 Skarabäus) when I first bought in Paris. Together my favourite Pico RTA.
 Could be I am tired of chasing for the latest stuff out there, just like how we are chasing for gadgets and shit.
-Sticking with the same old mod and same old RTA.</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="taifun---scarab-skarabäus">Taifun - Scarab (Skarabäus)<a class="hash-link" href="#taifun---scarab-skarabäus" title="Direct link to heading">​</a></h2><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#f8f8f2;--prism-background-color:#272822"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#f8f8f2"><span class="token plain">The Taifun Skarabäus Pro is characterized by its relatively simple operation, which excludes the usual disadvantages of a mechanical switches such as arcing, carbon build up, and performance degradation over time. The benefit of the switch design in the Skarabäus Pro results in fast and instant power ramp up for strong hits and consistent performance over time.</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p><img loading="lazy" alt="Taifun - Scarab" src="/assets/images/taifun-skarabaeus-0ebe73f4bfbc170edf8857c8e9683189.jpg" width="800" height="800" class="img_ev3q"></p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="pico-rta">Pico RTA<a class="hash-link" href="#pico-rta" title="Direct link to heading">​</a></h2><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#f8f8f2;--prism-background-color:#272822"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#f8f8f2"><span class="token plain">The Pico RTA by YellowKiss (The Vape) The Pico by YellowKiss (The Vape) in Korea, is an exclusive rebuildable tank atomizer that is designed for some of the most incredible flavour reproduction available from any tank on the market today, packaged in an incredibly small size!</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p><img loading="lazy" alt="pico" src="/assets/images/picorta.resized-8e98477ea1291ea54be822445c9f1bbe.jpg" width="400" height="400" class="img_ev3q"></p>]]></content:encoded>
+Sticking with the same old mod and same old RTA.</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="taifun---scarab-skarabäus">Taifun - Scarab (Skarabäus)<a class="hash-link" href="#taifun---scarab-skarabäus" title="Direct link to heading">​</a></h2><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#f8f8f2;--prism-background-color:#272822"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#f8f8f2"><span class="token plain">The Taifun Skarabäus Pro is characterized by its relatively simple operation, which excludes the usual disadvantages of a mechanical switches such as arcing, carbon build up, and performance degradation over time. The benefit of the switch design in the Skarabäus Pro results in fast and instant power ramp up for strong hits and consistent performance over time.</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p><img loading="lazy" alt="Taifun - Scarab" src="/app/assets/images/taifun-skarabaeus-0ebe73f4bfbc170edf8857c8e9683189.jpg" width="800" height="800" class="img_ev3q"></p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="pico-rta">Pico RTA<a class="hash-link" href="#pico-rta" title="Direct link to heading">​</a></h2><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#f8f8f2;--prism-background-color:#272822"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#f8f8f2"><span class="token plain">The Pico RTA by YellowKiss (The Vape) The Pico by YellowKiss (The Vape) in Korea, is an exclusive rebuildable tank atomizer that is designed for some of the most incredible flavour reproduction available from any tank on the market today, packaged in an incredibly small size!</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p><img loading="lazy" alt="pico" src="/app/assets/images/picorta.resized-8e98477ea1291ea54be822445c9f1bbe.jpg" width="400" height="400" class="img_ev3q"></p>]]></content:encoded>
             <category>vape</category>
             <category>life</category>
         </item>
         <item>
             <title><![CDATA[Bake a cheesecake?]]></title>
-            <link>https://lejencodes.com/blog/bake-a-cheesecake</link>
+            <link>https://lejencodes.github.io/app/blog/bake-a-cheesecake</link>
             <guid>bake-a-cheesecake</guid>
             <pubDate>Sun, 24 Apr 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Recently I have been looking for something new to try on. How about baking a cake?]]></description>
@@ -349,7 +349,7 @@ percentages of sour cream and I am having fun!</p><p><a href="https://www.youtub
         </item>
         <item>
             <title><![CDATA[Method of RPA Bots Deployment]]></title>
-            <link>https://lejencodes.com/blog/method-of-rpa-bots-deployment</link>
+            <link>https://lejencodes.github.io/app/blog/method-of-rpa-bots-deployment</link>
             <guid>method-of-rpa-bots-deployment</guid>
             <pubDate>Wed, 13 Apr 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Not long ago, I have been introduced with Python.]]></description>
@@ -364,7 +364,7 @@ has been coded to do the job.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Top 10 Design Principles]]></title>
-            <link>https://lejencodes.com/blog/top-10-design-principles</link>
+            <link>https://lejencodes.github.io/app/blog/top-10-design-principles</link>
             <guid>top-10-design-principles</guid>
             <pubDate>Tue, 12 Apr 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[What I learned and understand so far...]]></description>
@@ -391,7 +391,7 @@ Think of test case, functional test, unit test, and find out a way to test the c
         </item>
         <item>
             <title><![CDATA[Python Refactoring]]></title>
-            <link>https://lejencodes.com/blog/python-refactoring</link>
+            <link>https://lejencodes.github.io/app/blog/python-refactoring</link>
             <guid>python-refactoring</guid>
             <pubDate>Mon, 11 Apr 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Trying to understand what is refactoring, follow the guide from Real Python. https://realpython.com/python-refactoring]]></description>
@@ -404,7 +404,7 @@ documentation handy for reference.</p><p>Find the line with the number 3</p><div
         </item>
         <item>
             <title><![CDATA[Using ssh-agent with Visual Studio Code on Windows 10]]></title>
-            <link>https://lejencodes.com/blog/using-ssh-agent-with-visual-studio-code-on-windows-10</link>
+            <link>https://lejencodes.github.io/app/blog/using-ssh-agent-with-visual-studio-code-on-windows-10</link>
             <guid>using-ssh-agent-with-visual-studio-code-on-windows-10</guid>
             <pubDate>Sun, 10 Apr 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Enable the ssh-agent service]]></description>
@@ -488,7 +488,7 @@ close System Properties.</li><li>Finally, close the System window.</li></ol>]]><
         </item>
         <item>
             <title><![CDATA[Make another branch as master]]></title>
-            <link>https://lejencodes.com/blog/make-another-branch-as-master</link>
+            <link>https://lejencodes.github.io/app/blog/make-another-branch-as-master</link>
             <guid>make-another-branch-as-master</guid>
             <pubDate>Sat, 05 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Since the task was to simply use another branch instead of master, you can simply remove master branch completely or]]></description>
@@ -504,7 +504,7 @@ answer <a href="https://stackoverflow.com/questions/2763006/change-the-current-b
         </item>
         <item>
             <title><![CDATA[Hugo Commands]]></title>
-            <link>https://lejencodes.com/blog/hugo-commands</link>
+            <link>https://lejencodes.github.io/app/blog/hugo-commands</link>
             <guid>hugo-commands</guid>
             <pubDate>Fri, 04 Mar 2022 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#f8f8f2;--prism-background-color:#272822"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#f8f8f2"><span class="token plain">hugo server --noHTTPCache --disableFastRender</span><br></span><span class="token-line" style="color:#f8f8f2"><span class="token plain">hugo server --noHTTPCache --disableFastRender --ignoreCache</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><h1>Create Post</h1><div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#f8f8f2;--prism-background-color:#272822"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#f8f8f2"><span class="token plain">hugo new post/create-virtual-environment-in-linux/index.md</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><h1>Install Hugo</h1><div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#f8f8f2;--prism-background-color:#272822"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#f8f8f2"><span class="token function" style="color:#e6db74">curl</span><span class="token plain"> -s https://api.github.com/repos/gohugoio/hugo/releases/latest </span><span class="token punctuation" style="color:#f8f8f2">\</span><span class="token plain"></span><br></span><span class="token-line" style="color:#f8f8f2"><span class="token plain"> </span><span class="token operator" style="color:#66d9ef">|</span><span class="token plain"> </span><span class="token function" style="color:#e6db74">grep</span><span class="token plain">  browser_download_url </span><span class="token punctuation" style="color:#f8f8f2">\</span><span class="token plain"></span><br></span><span class="token-line" style="color:#f8f8f2"><span class="token plain"> </span><span class="token operator" style="color:#66d9ef">|</span><span class="token plain"> </span><span class="token function" style="color:#e6db74">grep</span><span class="token plain"> Linux-64bit.deb </span><span class="token punctuation" style="color:#f8f8f2">\</span><span class="token plain"></span><br></span><span class="token-line" style="color:#f8f8f2"><span class="token plain"> </span><span class="token operator" style="color:#66d9ef">|</span><span class="token plain"> </span><span class="token function" style="color:#e6db74">grep</span><span class="token plain"> -v extended </span><span class="token punctuation" style="color:#f8f8f2">\</span><span class="token plain"></span><br></span><span class="token-line" style="color:#f8f8f2"><span class="token plain"> </span><span class="token operator" style="color:#66d9ef">|</span><span class="token plain"> </span><span class="token function" style="color:#e6db74">cut</span><span class="token plain"> -d </span><span class="token string" style="color:#a6e22e">'"'</span><span class="token plain"> -f </span><span class="token number" style="color:#ae81ff">4</span><span class="token plain"> </span><span class="token punctuation" style="color:#f8f8f2">\</span><span class="token plain"></span><br></span><span class="token-line" style="color:#f8f8f2"><span class="token plain"> </span><span class="token operator" style="color:#66d9ef">|</span><span class="token plain"> </span><span class="token function" style="color:#e6db74">wget</span><span class="token plain"> -i -</span><br></span><span class="token-line" style="color:#f8f8f2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#f8f8f2"><span class="token plain"> </span><span class="token function" style="color:#e6db74">curl</span><span class="token plain"> -s https://api.github.com/repos/gohugoio/hugo/releases/latest </span><span class="token punctuation" style="color:#f8f8f2">\</span><span class="token plain"></span><br></span><span class="token-line" style="color:#f8f8f2"><span class="token plain"> </span><span class="token operator" style="color:#66d9ef">|</span><span class="token plain"> </span><span class="token function" style="color:#e6db74">grep</span><span class="token plain">  browser_download_url </span><span class="token punctuation" style="color:#f8f8f2">\</span><span class="token plain"></span><br></span><span class="token-line" style="color:#f8f8f2"><span class="token plain"> </span><span class="token operator" style="color:#66d9ef">|</span><span class="token plain"> </span><span class="token function" style="color:#e6db74">grep</span><span class="token plain"> extended_0.81.0_Linux-64bit.deb </span><span class="token punctuation" style="color:#f8f8f2">\</span><span class="token plain"></span><br></span><span class="token-line" style="color:#f8f8f2"><span class="token plain"> </span><span class="token operator" style="color:#66d9ef">|</span><span class="token plain"> </span><span class="token function" style="color:#e6db74">cut</span><span class="token plain"> -d </span><span class="token string" style="color:#a6e22e">'"'</span><span class="token plain"> -f </span><span class="token number" style="color:#ae81ff">4</span><span class="token plain"> </span><span class="token punctuation" style="color:#f8f8f2">\</span><span class="token plain"></span><br></span><span class="token-line" style="color:#f8f8f2"><span class="token plain"> </span><span class="token operator" style="color:#66d9ef">|</span><span class="token plain"> </span><span class="token function" style="color:#e6db74">wget</span><span class="token plain"> -i -</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content:encoded>
@@ -513,7 +513,7 @@ answer <a href="https://stackoverflow.com/questions/2763006/change-the-current-b
         </item>
         <item>
             <title><![CDATA[Ghost Error 500 Hosting on Heroku]]></title>
-            <link>https://lejencodes.com/blog/ghost-error-500-hosting-on-heroku</link>
+            <link>https://lejencodes.github.io/app/blog/ghost-error-500-hosting-on-heroku</link>
             <guid>ghost-error-500-hosting-on-heroku</guid>
             <pubDate>Thu, 03 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Ghost Error 500 - The currently active theme is missing.]]></description>
@@ -521,14 +521,14 @@ answer <a href="https://stackoverflow.com/questions/2763006/change-the-current-b
 got to know that Heroku site do not have storage to store the custom theme uploaded via Ghost admin panel.</p><p>Did couple of search online, a lot suggested that you can clone heroku by git clone command</p><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#f8f8f2;--prism-background-color:#272822"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#f8f8f2"><span class="token plain">heroku git:clone -a myappname</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p>But I get the error message about cloning an empty repository which I think it doesn't make any sense when the site is
 live at the moment</p><p>Continued my search and finally came into something useful which is using heroku slug to download source code</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="solution">Solution<a class="hash-link" href="#solution" title="Direct link to heading">​</a></h2><ol><li><p>Before that, proceed to install Heroku CLI following guide at their official
 site <a href="https://devcenter.heroku.com/articles/heroku-cli" target="_blank" rel="noopener noreferrer">Heroku Dev Center</a></p></li><li><p>Follow this site to get it <a href="https://github.com/heroku/heroku-slugs" target="_blank" rel="noopener noreferrer">heroku-slugs</a> installed</p></li><li><p>Login to Heroku account</p><p>   heroku login</p></li><li><p>Heroku slug command to download your source code</p><p>   heroku slugs:download -a APP_NAME</p></li><li><p>You will be getting the following folders:</p></li></ol><ul><li>app</li><li>slug.tar.gz</li></ul><p><img loading="lazy" alt="Command Line" src="data:image/png;base64,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" width="273" height="114" class="img_ev3q"></p><ol><li><p>Make a new repository in GitHub and upload app folder to your repository</p></li><li><p>Proceed to your heroku app dashboard, under Deploy Tab, Deployment method select GitHub and search for your newly
-created repository. You will end up something like below.</p></li></ol><p><img loading="lazy" alt="Heroku" src="/assets/images/heroku-5f62d93bd183bed4270317a2a2b1db51.png" width="1218" height="306" class="img_ev3q"></p><ol><li>Done!</li><li>You may also setup automatic deploys for every push to master branch</li></ol>]]></content:encoded>
+created repository. You will end up something like below.</p></li></ol><p><img loading="lazy" alt="Heroku" src="/app/assets/images/heroku-5f62d93bd183bed4270317a2a2b1db51.png" width="1218" height="306" class="img_ev3q"></p><ol><li>Done!</li><li>You may also setup automatic deploys for every push to master branch</li></ol>]]></content:encoded>
             <category>ghost</category>
             <category>error-500</category>
             <category>heroku</category>
         </item>
         <item>
             <title><![CDATA[Changing the Most Recent Commit]]></title>
-            <link>https://lejencodes.com/blog/changing-the-most-recent-commit</link>
+            <link>https://lejencodes.github.io/app/blog/changing-the-most-recent-commit</link>
             <guid>changing-the-most-recent-commit</guid>
             <pubDate>Wed, 02 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[The git commit --amend command allows you to change the most recent commit message.]]></description>
@@ -546,7 +546,7 @@ messages, use <code>git rebase -i HEAD~N</code>.</p><p>Don’t amend pushed comm
         </item>
         <item>
             <title><![CDATA[Python pip command]]></title>
-            <link>https://lejencodes.com/blog/python-pip-command</link>
+            <link>https://lejencodes.github.io/app/blog/python-pip-command</link>
             <guid>python-pip-command</guid>
             <pubDate>Tue, 01 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Find package]]></description>
@@ -556,7 +556,7 @@ messages, use <code>git rebase -i HEAD~N</code>.</p><p>Don’t amend pushed comm
         </item>
         <item>
             <title><![CDATA[Starting With Ghost Blogging]]></title>
-            <link>https://lejencodes.com/blog/starting-with-ghost-blogging</link>
+            <link>https://lejencodes.github.io/app/blog/starting-with-ghost-blogging</link>
             <guid>starting-with-ghost-blogging</guid>
             <pubDate>Sun, 02 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Here's my thoughts]]></description>

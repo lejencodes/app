@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[2485],{7657:e=>{e.exports=JSON.parse('{"permalink":"/app/blog/tags/ubuntu","page":1,"postsPerPage":5,"totalPages":1,"totalCount":2,"blogDescription":"CoffeeCodesLife!","blogTitle":"CoffeeCodes blog!"}')}}]);

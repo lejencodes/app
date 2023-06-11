@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[9678],{694:p=>{p.exports=JSON.parse('{"label":"mongodb","permalink":"/app/docs/tags/mongodb","allTagsPath":"/app/docs/tags","count":1,"items":[{"id":"mongodb/setup-mongodb","title":"Setup MongoDb","description":"Setup and Installation","permalink":"/app/docs/mongodb/setup-mongodb"}]}')}}]);
