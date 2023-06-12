@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[7966],{98318:e=>{e.exports=JSON.parse('{"permalink":"/app/blog/page/6","page":6,"postsPerPage":5,"totalPages":6,"totalCount":29,"previousPage":"/app/blog/page/5","blogDescription":"CoffeeCodesLife!","blogTitle":"CoffeeCodes blog!"}')}}]);

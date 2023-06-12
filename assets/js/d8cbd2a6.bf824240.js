@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[4190],{26070:e=>{e.exports=JSON.parse('{"permalink":"/app/blog/tags/pi-hole","page":1,"postsPerPage":5,"totalPages":1,"totalCount":1,"blogDescription":"CoffeeCodesLife!","blogTitle":"CoffeeCodes blog!"}')}}]);

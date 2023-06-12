@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[3513],{2634:p=>{p.exports=JSON.parse('{"label":"design-principles","permalink":"/app/blog/tags/design-principles","allTagsPath":"/app/blog/tags","count":1}')}}]);

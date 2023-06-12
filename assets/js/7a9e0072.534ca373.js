@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[5933],{1027:a=>{a.exports=JSON.parse('{"label":"Gitlab","permalink":"/app/docs/tags/gitlab","allTagsPath":"/app/docs/tags","count":1,"items":[{"id":"ci/setup-gitlab-runner","title":"Setup Gitlab Runner","description":"","permalink":"/app/docs/ci/setup-gitlab-runner"}]}')}}]);

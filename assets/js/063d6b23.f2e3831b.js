@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[5509],{4702:a=>{a.exports=JSON.parse('{"title":"Linux","slug":"/category/linux","permalink":"/app/docs/category/linux","navigation":{"previous":{"title":"Financial","permalink":"/app/docs/financial/"},"next":{"title":"Linux Command","permalink":"/app/docs/linux/linux-command"}}}')}}]);

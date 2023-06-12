@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[6728],{3536:s=>{s.exports=JSON.parse('{"label":"vim","permalink":"/app/docs/tags/vim","allTagsPath":"/app/docs/tags","count":1,"items":[{"id":"tools/vim-visual-block","title":"Vim Visual Block","description":"ctrl v to enter visual block","permalink":"/app/docs/tools/vim-visual-block"}]}')}}]);
