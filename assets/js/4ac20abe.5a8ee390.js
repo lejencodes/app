@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[609],{10112:t=>{t.exports=JSON.parse('{"title":"ChatGPT","slug":"/category/chatgpt","permalink":"/app/docs/category/chatgpt","navigation":{"previous":{"title":"CODE Strategy","permalink":"/app/docs/code-strategy/"},"next":{"title":"GPT4-Mobile","permalink":"/app/docs/chatgpt/gpt4-mobile"}}}')}}]);
