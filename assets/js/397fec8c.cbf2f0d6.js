@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[4086],{56188:e=>{e.exports=JSON.parse('{"title":"Code-Strategy","slug":"/category/code-strategy","permalink":"/app/docs/category/code-strategy","navigation":{"previous":{"title":"Hello","permalink":"/app/docs/Hello"},"next":{"title":"1. Capture","permalink":"/app/docs/category/1-capture"}}}')}}]);

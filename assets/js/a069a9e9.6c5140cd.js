@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[923],{7477:a=>{a.exports=JSON.parse('{"label":"p-a-r-a","permalink":"/app/docs/tags/p-a-r-a","allTagsPath":"/app/docs/tags","count":1,"items":[{"id":"code-strategy/para","title":"P-A-R-A","description":"Projects","permalink":"/app/docs/code-strategy/para"}]}')}}]);
