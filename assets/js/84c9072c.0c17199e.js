@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[6688],{60596:e=>{e.exports=JSON.parse('{"label":"mind-garden","permalink":"/app/docs/tags/mind-garden","allTagsPath":"/app/docs/tags","count":1,"items":[{"id":"Hello","title":"Hello","description":"Welcome to my mind-garden","permalink":"/app/docs/Hello"}]}')}}]);
