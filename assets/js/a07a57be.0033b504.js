@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[1467],{86143:a=>{a.exports=JSON.parse('{"label":"homelab","permalink":"/app/docs/tags/homelab","allTagsPath":"/app/docs/tags","count":1,"items":[{"id":"homelab/homelab-hardware","title":"Homelab Hardware","description":"16gb DDR4","permalink":"/app/docs/homelab/homelab-hardware"}]}')}}]);
