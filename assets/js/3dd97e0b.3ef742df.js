@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[223],{38408:p=>{p.exports=JSON.parse('{"title":"App","slug":"/category/app","permalink":"/app/docs/category/app","navigation":{"previous":{"title":"ansible-playbook","permalink":"/app/docs/ansible-playbook"},"next":{"title":"Obsidian","permalink":"/app/docs/category/obsidian"}}}')}}]);

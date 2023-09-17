@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[4063],{50705:p=>{p.exports=JSON.parse('{"label":"poco","permalink":"/app/docs/tags/poco","allTagsPath":"/app/docs/tags","count":1,"items":[{"id":"programming/understanding/what-is-poco","title":"What is POCO","description":"Object)","permalink":"/app/docs/programming/understanding/what-is-poco"}]}')}}]);
