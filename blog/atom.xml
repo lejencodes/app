@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lejencodes.github.io/app/blog"/>
     <subtitle>Coffee Codes Life Blog</subtitle>
-    <icon>https://lejencodes.github.io/app/img/favicon.png</icon>
+    <icon>https://lejencodes.github.io/app/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[What Is The Robot Framework, And How Does It Function?]]></title>
         <id>https://lejencodes.github.io/app/blog/what-is-the-robot-framework-and-how-does-it-function</id>
