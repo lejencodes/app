@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[1693],{22915:s=>{s.exports=JSON.parse('{"label":"submodule","permalink":"/app/blog/tags/submodule","allTagsPath":"/app/blog/tags","count":1,"unlisted":false}')}}]);

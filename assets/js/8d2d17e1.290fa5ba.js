@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[5464],{14654:a=>{a.exports=JSON.parse('{"title":"Programming","slug":"/category/programming","permalink":"/app/docs/category/programming","navigation":{"previous":{"title":"idea-machine","permalink":"/app/docs/idea-machine"},"next":{"title":"CI","permalink":"/app/docs/category/ci"}}}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[6634],{25157:e=>{e.exports=JSON.parse('{"title":"AltServer","slug":"/category/altserver","permalink":"/app/docs/category/altserver","navigation":{"previous":{"title":"Hello","permalink":"/app/docs/Hello"},"next":{"title":"Get Device Unique Id","permalink":"/app/docs/altserver/get-device-udid"}}}')}}]);
