@@ -33,10 +33,10 @@ keywords also serve as assertion methods. They may experience arguments in an ef
 <p>The examples "Open Browser" and "Title Should Be" up top are two good ones. Since many test libraries include the
 necessary automation components as keywords, you don't necessarily need to write Python or Java code.</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="notes-on-robotframework-setup-and-basics">Notes on RobotFramework Setup and Basics<a href="https://lejencodes.github.io/app/blog/what-is-the-robot-framework-and-how-does-it-function#notes-on-robotframework-setup-and-basics" class="hash-link" aria-label="Direct link to Notes on RobotFramework Setup and Basics" title="Direct link to Notes on RobotFramework Setup and Basics">​</a></h2>
-<p>Visit documentation at <a href="https://lejencodes.com/docs/automation/robotframework/robot-framework-setup-and-basics" target="_blank" rel="noopener noreferrer">link</a></p>]]></content>
+<p>Visit documentation by searching robot-framework-setup-and-basics</p>]]></content>
         <author>
-            <name>Lejen</name>
-            <uri>https://lejencodes.com</uri>
+            <name>koficodes</name>
+            <uri>https://koficodes.xyz</uri>
         </author>
         <category label="robotframework" term="robotframework"/>
         <category label="rf" term="rf"/>
@@ -50,34 +50,34 @@ necessary automation components as keywords, you don't necessarily need to write
         <updated>2023-01-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Adding or Cloning a submodule]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="adding-or-cloning-a-submodule">Adding or Cloning a submodule<a href="https://lejencodes.github.io/app/blog/git-submodule-command#adding-or-cloning-a-submodule" class="hash-link" aria-label="Direct link to Adding or Cloning a submodule" title="Direct link to Adding or Cloning a submodule">​</a></h2>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">git submodule add &lt;url&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">git submodule add &lt;url&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="update-all-submodules-no-local-changes">Update All Submodules (no local changes)<a href="https://lejencodes.github.io/app/blog/git-submodule-command#update-all-submodules-no-local-changes" class="hash-link" aria-label="Direct link to Update All Submodules (no local changes)" title="Direct link to Update All Submodules (no local changes)">​</a></h2>
 <p>If you do not have any local changes in your submodules, and all you want to do is consume new commits for your
 submodules' upstreams, you can run this command. It will go through each submodule, update remotes, and then update to
 the latest commit.</p>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">git submodule update --remote [--recursive]</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">git submodule update --remote [--recursive]</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="update-all-submodules-with-local-changes">Update All Submodules (with local changes)<a href="https://lejencodes.github.io/app/blog/git-submodule-command#update-all-submodules-with-local-changes" class="hash-link" aria-label="Direct link to Update All Submodules (with local changes)" title="Direct link to Update All Submodules (with local changes)">​</a></h2>
 <p>If you have made local changes to your submodules, and want to pull new changes from the submodules' upstream, git makes
 this really simple. Make sure to specify whether you want to rebase or merge.</p>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">git submodule update --remote [--rebase | --merge] [--recursive]</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">git submodule update --remote [--rebase | --merge] [--recursive]</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="another-way-to-update-all-submodule">Another Way to Update All Submodule<a href="https://lejencodes.github.io/app/blog/git-submodule-command#another-way-to-update-all-submodule" class="hash-link" aria-label="Direct link to Another Way to Update All Submodule" title="Direct link to Another Way to Update All Submodule">​</a></h2>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">git submodule foreach --recursive git checkout master</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">git submodule foreach --recursive git pull</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">git submodule foreach --recursive git checkout master</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">git submodule foreach --recursive git pull</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="push-local-work-to-submodule">Push Local Work to Submodule<a href="https://lejencodes.github.io/app/blog/git-submodule-command#push-local-work-to-submodule" class="hash-link" aria-label="Direct link to Push Local Work to Submodule" title="Direct link to Push Local Work to Submodule">​</a></h2>
 <p>A submodule is nothing but a clone of a git repo within another repo with some extra metadata (gitlink tree entry,
 .gitmodules file )</p>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">cd your_submodule</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">git checkout master</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">git commit -a -m "commit in submodule"</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">git push</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">cd ..</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">git add your_submodule</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">git commit -m "Updated submodule"</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">cd your_submodule</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">git checkout master</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">git commit -a -m "commit in submodule"</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">git push</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">cd ..</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">git add your_submodule</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">git commit -m "Updated submodule"</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="common-error">Common Error<a href="https://lejencodes.github.io/app/blog/git-submodule-command#common-error" class="hash-link" aria-label="Direct link to Common Error" title="Direct link to Common Error">​</a></h2>
 <blockquote>
 <p>fatal: Needed a single revision
 Unable to find current origin/master revision in submodule path 'xxFolder'
 Fix by remove the folder and update again</p>
 </blockquote>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">rm -rf xxFolder</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">git submodule update</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">rm -rf xxFolder</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">git submodule update</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="removing-a-submodule">Removing a submodule<a href="https://lejencodes.github.io/app/blog/git-submodule-command#removing-a-submodule" class="hash-link" aria-label="Direct link to Removing a submodule" title="Direct link to Removing a submodule">​</a></h2>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">git submodule deinit path/to/module </span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">git rm path/to/module</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">git commit -am "Removed submodule X" </span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">git submodule deinit path/to/module </span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">git rm path/to/module</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">git commit -am "Removed submodule X" </span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
         <author>
-            <name>Lejen</name>
-            <uri>https://lejencodes.com</uri>
+            <name>koficodes</name>
+            <uri>https://koficodes.xyz</uri>
         </author>
         <category label="git" term="git"/>
         <category label="submodule" term="submodule"/>
@@ -187,8 +187,8 @@ Pi-Hole is releasing updates and fixes regularly, so you need to update it.</p>
 Type this command:</p>
 <p>sudo pihole -up</p>]]></content>
         <author>
-            <name>Lejen</name>
-            <uri>https://lejencodes.com</uri>
+            <name>koficodes</name>
+            <uri>https://koficodes.xyz</uri>
         </author>
         <category label="raspberry-pi" term="raspberry-pi"/>
         <category label="pi-hole" term="pi-hole"/>
@@ -226,19 +226,12 @@ on your website.</p>
 from its index quickly. The next time Googlebot visits the page and sees the 410 status code, Google will then remove
 the page from it’s index within 24 hours. Google will never check again to see if the page has come back.</p>
 <p>Here are some different types of HTTP status codes:</p>
-<p>100s: Informational requests
-200s: Successful requests
-300s: Redirects
-400s: Client-side errors
-500s: Server-side errors</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">    100s: Informational requests</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    200s: Successful requests</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    300s: Redirects</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    400s: Client-side errors</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    500s: Server-side errors</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>Depending on your browser, the 410 error can appear in a few different ways:</p>
-<p>410 Gone
-Gone
-Error 410
-HTTP Status 410</p>]]></content>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">    410 Gone</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    Gone</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    Error 410</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    HTTP Status 410</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
         <author>
-            <name>Lejen</name>
-            <uri>https://lejencodes.com</uri>
+            <name>koficodes</name>
+            <uri>https://koficodes.xyz</uri>
         </author>
         <category label="search-console" term="search-console"/>
         <category label="google" term="google"/>
@@ -253,19 +246,19 @@ HTTP Status 410</p>]]></content>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="get-started">Get started<a href="https://lejencodes.github.io/app/blog/python-seo-analyzer#get-started" class="hash-link" aria-label="Direct link to Get started" title="Direct link to Get started">​</a></h2>
 <p>Requires Python 3.6+, BeautifulSoup4 and urllib3.</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="install-by-using-pip">Install by using pip<a href="https://lejencodes.github.io/app/blog/python-seo-analyzer#install-by-using-pip" class="hash-link" aria-label="Direct link to Install by using pip" title="Direct link to Install by using pip">​</a></h2>
-<p>pip3 install pyseoanalyzer</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">pip3 install pyseoanalyzer</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="command-line-usage">Command-line Usage<a href="https://lejencodes.github.io/app/blog/python-seo-analyzer#command-line-usage" class="hash-link" aria-label="Direct link to Command-line Usage" title="Direct link to Command-line Usage">​</a></h2>
 <p>If you run without a sitemap it will start crawling at the homepage.</p>
-<p>seoanalyze <a href="https://lejencodes.com/" target="_blank" rel="noopener noreferrer">https://lejencodes.com/</a></p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">seoanalyze https://koficodes.xyz/</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>Or you can specify the path to a sitemap to seed the urls to scan list.</p>
-<p>seoanalyze <a href="https://lejencodes.com/" target="_blank" rel="noopener noreferrer">https://lejencodes.com/</a> --sitemap <a href="https://lejencodes.com/sitemap.xml" target="_blank" rel="noopener noreferrer">https://lejencodes.com/sitemap.xml</a></p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">seoanalyze https://koficodes.xyz/ --sitemap https://koficodes.xyz/sitemap.xml</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>HTML output can be generated from the analysis instead of json.</p>
-<p>seoanalyze <a href="https://lejencodes.com/" target="_blank" rel="noopener noreferrer">https://lejencodes.com/</a> --sitemap <a href="https://lejencodes.com/sitemap.xml" target="_blank" rel="noopener noreferrer">https://lejencodes.com/sitemap.xml</a> --output-format html</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">seoanalyze https://koficodes.xyz/ --sitemap https://koficodes.xyz/sitemap.xml --output-format html</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>Run From cloned Repository</p>
-<p>python analyzer.py <a href="https://lejencodes.com/" target="_blank" rel="noopener noreferrer">https://lejencodes.com/</a> -f html &gt; results.html</p>]]></content>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">python analyzer.py https://koficodes.xyz/ -f html &gt; results.html</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
         <author>
-            <name>Lejen</name>
-            <uri>https://lejencodes.com</uri>
+            <name>koficodes</name>
+            <uri>https://koficodes.xyz</uri>
         </author>
         <category label="python" term="python"/>
         <category label="seo" term="seo"/>
@@ -281,7 +274,7 @@ HTTP Status 410</p>]]></content>
 <ol>
 <li>Go to your dir to check if key exist C:\Users\username.ssh</li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">cd %userprofile%\.ssh`</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">cd %userprofile%\.ssh`</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <ol start="2">
 <li>Use putty to gen a key and convert openssh</li>
 <li>Open putty key generator, under key menu select generate key pair</li>
@@ -293,21 +286,21 @@ HTTP Status 410</p>]]></content>
 <li>Open git bash, right click on directory - select git bash) into place you wanna clone</li>
 <li>Activate ssh agent and add your key to ssh agent, and type your ssh key password</li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">eval $(ssh-agent -s)</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">ssh-add ~/.ssh/id_rsa</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">eval $(ssh-agent -s)</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">ssh-add ~/.ssh/id_rsa</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="turn-on-the-credential-helper-so-that-git-will-save-your-password">Turn on the credential helper so that Git will save your password<a href="https://lejencodes.github.io/app/blog/repo-clone-with-ssh#turn-on-the-credential-helper-so-that-git-will-save-your-password" class="hash-link" aria-label="Direct link to Turn on the credential helper so that Git will save your password" title="Direct link to Turn on the credential helper so that Git will save your password">​</a></h3>
 <ol>
 <li>By default, Git will cache your password for 15 minutes.</li>
 <li>In Terminal, enter the following:</li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain"># Set git to use the credential memory cache</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">git config --global credential.helper cache</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain"># Set git to use the credential memory cache</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">git config --global credential.helper cache</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="common-error">Common Error<a href="https://lejencodes.github.io/app/blog/repo-clone-with-ssh#common-error" class="hash-link" aria-label="Direct link to Common Error" title="Direct link to Common Error">​</a></h2>
 <p>FATAL ERROR: No supported authentication methods available (server sent: publickey)</p>
 <ol>
 <li>Open Pageant add private key</li>
 </ol>]]></content>
         <author>
-            <name>Lejen</name>
-            <uri>https://lejencodes.com</uri>
+            <name>koficodes</name>
+            <uri>https://koficodes.xyz</uri>
         </author>
         <category label="repo" term="repo"/>
         <category label="ssh" term="ssh"/>
@@ -320,8 +313,8 @@ HTTP Status 410</p>]]></content>
         <summary type="html"><![CDATA[Welcome to my digital-garden / mind-garden. Always changing, continuously improve]]></summary>
         <content type="html"><![CDATA[<p>Welcome to my digital-garden / mind-garden. Always changing, continuously improve</p>]]></content>
         <author>
-            <name>Lejen</name>
-            <uri>https://lejencodes.com</uri>
+            <name>koficodes</name>
+            <uri>https://koficodes.xyz</uri>
         </author>
         <category label="welcome" term="welcome"/>
         <category label="mind-garden" term="mind-garden"/>
@@ -341,25 +334,25 @@ the apt-get command option <code>autoremove</code>.</li>
 package. If that package is removed, these automatically installed packages are useless in the system.</p>
 <p>It also removes old Linux kernels that were installed from automatically in the system upgrade.</p>
 <p>It’s a no-brainer command that you can run from time to time to make some free space on your Ubuntu system:</p>
-<p>sudo apt-get autoremove</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain"> sudo apt-get autoremove</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <ol start="2">
 <li>You can remove a program in Ubuntu from the software centre or using the command below with particular app name:</li>
 </ol>
-<p>sudo apt-get remove package-name1 package-name2</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt-get remove package-name1 package-name2</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <ol start="3">
 <li>Clean up APT cache in Ubuntu
 Ubuntu uses APT (Advanced Package Tool) for installing, removing and managing software on the system, and in doing so
 it keeps a cache of previously downloaded and installed packages even after they’ve been uninstalled.</li>
 </ol>
 <p>You can see the size of this cache with the du command below:</p>
-<p>sudo du -sh /var/cache/apt</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo du -sh /var/cache/apt </span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>Either remove only the outdated packages, like those superseded by a recent update, making them completely unnecessary.</p>
-<p>sudo apt-get autoclean</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt-get autoclean</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>Or delete apt cache in its entirety (frees more disk space):</p>
-<p>sudo apt-get clean</p>]]></content>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt-get clean</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
         <author>
-            <name>Lejen</name>
-            <uri>https://lejencodes.com</uri>
+            <name>koficodes</name>
+            <uri>https://koficodes.xyz</uri>
         </author>
         <category label="ubuntu" term="ubuntu"/>
         <category label="clean-up" term="clean-up"/>
@@ -371,26 +364,23 @@ it keeps a cache of previously downloaded and installed packages even after they
         <updated>2022-07-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[You could install Visual Studio Code using apt:]]></summary>
         <content type="html"><![CDATA[<p>You could install Visual Studio Code using apt:</p>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" | sudo tee /etc/apt/sources.list.d/vscode.list</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt update</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt install code</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" | sudo tee /etc/apt/sources.list.d/vscode.list</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt update</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt install code</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>or snap:</p>
-<p>sudo snap install code --classic</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo snap install code --classic</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>After the C# package installing, the next dialog box appears:
 Clicking the marked button opens the next page, which provides the instructions for .Net Core SDK installation (along
 with ASP.Net Core runtime and .Net Core runtime installation instructions):</p>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">wget https://packages.microsoft.com/config/ubuntu/19.10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt install ./packages-microsoft-prod.deb</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt-get update</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt-get install apt-transport-https</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt-get update</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt-get install dotnet-sdk-3.1</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">wget https://packages.microsoft.com/config/ubuntu/19.10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt install ./packages-microsoft-prod.deb</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt-get update</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt-get install apt-transport-https</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt-get update</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt-get install dotnet-sdk-3.1</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>monodevelop IDE seems is not an option now, because of I could not find it. But if you want to install the current mono
 version (For example, on 20.04, amd64 architecture) you could use official mono repository:</p>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt install gnupg ca-certificates</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">echo "deb [arch=amd64] https://download.mono-project.com/repo/ubuntu stable-focal main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt update</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt install mono-devel</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt install gnupg ca-certificates</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">echo "deb [arch=amd64] https://download.mono-project.com/repo/ubuntu stable-focal main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt update</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt install mono-devel</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>You could also install additional mono packages, which you could find by:</p>
-<p>apt-cache search mono</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">apt-cache search mono</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>The man mono will introduce you to its usage:</p>
-<p>DESCRIPTION
-mono is a runtime implementation of the ECMA Common  Lan‐
-guage  Infrastructure.   This can be used to run ECMA and
-.NET applications.</p>]]></content>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">    DESCRIPTION</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">        mono is a runtime implementation of the ECMA Common  Lan‐</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">        guage  Infrastructure.   This can be used to run ECMA and</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">        .NET applications.</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
         <author>
-            <name>Lejen</name>
-            <uri>https://lejencodes.com</uri>
+            <name>koficodes</name>
+            <uri>https://koficodes.xyz</uri>
         </author>
         <category label="vscode" term="vscode"/>
         <category label="ubuntu" term="ubuntu"/>
@@ -404,25 +394,25 @@ guage  Infrastructure.   This can be used to run ECMA and
         <content type="html"><![CDATA[<ol>
 <li>Let’s start by installing the python3-venv package that provides the venv module.</li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt install python3-venv</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt install python3-venv</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <ol start="2">
 <li>Once the module is installed we are ready to create virtual environments for Python 3.</li>
 <li>Switch to the directory where you would like to store your Python 3 virtual environments.</li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">cd /path/to/your/project</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">cd /path/to/your/project</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <ol start="4">
 <li>Within the directory run the following command to create your new virtual environment.</li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">python3 -m venv venv</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">python3 -m venv venv</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <ol start="5">
 <li>The command above creates a directory called <code>venv</code>, which contains a copy of the Python binary, the Pip package
 manager, the standard Python library and other supporting files.</li>
 <li>To start using this virtual environment, you need to activate it by running the activate script.</li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">source venv/bin/activate</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">source venv/bin/activate</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
         <author>
-            <name>Lejen</name>
-            <uri>https://lejencodes.com</uri>
+            <name>koficodes</name>
+            <uri>https://koficodes.xyz</uri>
         </author>
         <category label="python" term="python"/>
         <category label="venv" term="venv"/>
@@ -453,8 +443,8 @@ commit.</p>
 <p><code>git pull --rebase git://github.com/[username]/[project].git</code></p>
 <p>But then you'll need the hash of the latest upstream commit instead of "upstream/master" in the other steps.</p>]]></content>
         <author>
-            <name>Lejen</name>
-            <uri>https://lejencodes.com</uri>
+            <name>koficodes</name>
+            <uri>https://koficodes.xyz</uri>
         </author>
         <category label="command" term="command"/>
         <category label="git" term="git"/>
@@ -500,11 +490,12 @@ re-designing our bots.</p>
 as a quick fix which now end up deploying multiple bots which are doing similar job while ideally they could be designed
 as a single bot.</p>]]></content>
         <author>
-            <name>Lejen</name>
-            <uri>https://lejencodes.com</uri>
+            <name>koficodes</name>
+            <uri>https://koficodes.xyz</uri>
         </author>
         <category label="rpa" term="rpa"/>
-        <category label="life" term="life"/>
+        <category label="mistake" term="mistake"/>
+        <category label="lesson-learnt" term="lesson-learnt"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Keep Your Free Heroku App Alive]]></title>
@@ -552,8 +543,8 @@ step is essential as it satisfies the restriction for the free tier.</li>
 <p><img loading="lazy" alt="cron-job-details" src="https://lejencodes.github.io/app/assets/images/cron-job-details-143aaa02aa7f4dfc690b79f5a11cd375.png" width="720" height="858" class="img_ev3q"></p>
 <p>Congratulations! You have successfully kept your Heroku app alive.</p>]]></content>
         <author>
-            <name>Lejen</name>
-            <uri>https://lejencodes.com</uri>
+            <name>koficodes</name>
+            <uri>https://koficodes.xyz</uri>
         </author>
         <category label="heroku" term="heroku"/>
         <category label="cronjob" term="cronjob"/>
@@ -573,30 +564,10 @@ bucket, the bucket itself will still allow the existing policy.</p>
 <p>RestrictPublicBuckets - This will prevent non AWS services or authorized users (such as an IAM user or role) from being
 able to publicly access objects in the bucket.</p>]]></content>
         <author>
-            <name>Lejen</name>
-            <uri>https://lejencodes.com</uri>
+            <name>koficodes</name>
+            <uri>https://koficodes.xyz</uri>
         </author>
         <category label="aws" term="aws"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reduce Energy Consumption in Raspberry pi]]></title>
-        <id>https://lejencodes.github.io/app/blog/reduce-energy-consumption-in-raspberry-pi</id>
-        <link href="https://lejencodes.github.io/app/blog/reduce-energy-consumption-in-raspberry-pi"/>
-        <updated>2022-04-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Turn OFF HDMI output]]></summary>
-        <content type="html"><![CDATA[<p>Turn OFF HDMI output</p>
-<p>sudo /opt/vc/bin/tvservice -o</p>
-<p>Turn ON HDMI output</p>
-<p>sudo /opt/vc/bin/tvservice -p</p>
-<p>Turn OFF USB chip</p>
-<p>echo '1-1' |sudo tee /sys/bus/usb/drivers/usb/unbind</p>
-<p>Turn ON USB chip</p>
-<p>echo '1-1' |sudo tee /sys/bus/usb/drivers/usb/bind</p>]]></content>
-        <author>
-            <name>Lejen</name>
-            <uri>https://lejencodes.com</uri>
-        </author>
-        <category label="pi" term="pi"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Python Logging Output]]></title>
@@ -607,8 +578,8 @@ able to publicly access objects in the bucket.</p>]]></content>
         <content type="html"><![CDATA[<p>Complete table showing the various information that the logging system can output:</p>
 <table><thead><tr><th>%(name)s</th><th>Logger's name</th></tr></thead><tbody><tr><td>%(levelno)s</td><td>Log level in digital form</td></tr><tr><td>%(levelname)s</td><td>Log level in text form</td></tr><tr><td>%(pathname)s</td><td>The full path name of the module that called the log output function, may not have</td></tr><tr><td>%(filename)s</td><td>The file name of the module that called the log output function</td></tr><tr><td>%(module)s</td><td>Call the module name of the log output function</td></tr><tr><td>%(funcName)s</td><td>Call the function name of the log output function</td></tr><tr><td>%(lineno)d</td><td>The line of code where the statement that called the log output function is located</td></tr><tr><td>%(created)f</td><td>Current time, expressed in floating point numbers representing the time of the UNIX standard</td></tr><tr><td>%(relativeCreated)d</td><td>The number of milliseconds since the Logger was created when the log information was output.</td></tr><tr><td>%(asctime)s</td><td>The current time in the form of a string. The default format is "2003-07-08 16:49:45,896". Behind the comma is the millisecond</td></tr><tr><td>%(thread)d</td><td>Thread ID. Maybe not</td></tr><tr><td>%(threadName)s</td><td>Thread name. Maybe not</td></tr><tr><td>%(process)d</td><td>Process ID. Maybe not</td></tr><tr><td>%(message)s</td><td>User output message</td></tr></tbody></table>]]></content>
         <author>
-            <name>Lejen</name>
-            <uri>https://lejencodes.com</uri>
+            <name>koficodes</name>
+            <uri>https://koficodes.xyz</uri>
         </author>
         <category label="python" term="python"/>
     </entry>
@@ -686,8 +657,8 @@ most people, but they may be problematic if consumed in excess.</p>
 </li>
 </ul>]]></content>
         <author>
-            <name>Lejen</name>
-            <uri>https://lejencodes.com</uri>
+            <name>koficodes</name>
+            <uri>https://koficodes.xyz</uri>
         </author>
         <category label="coffee" term="coffee"/>
         <category label="life" term="life"/>
@@ -710,8 +681,8 @@ Sticking with the same old mod and same old RTA.</p>
 <p>The Pico RTA by YellowKiss (The Vape) The Pico by YellowKiss (The Vape) in Korea, is an exclusive rebuildable tank atomizer that is designed for some of the most incredible flavour reproduction available from any tank on the market today, packaged in an incredibly small size!</p>
 <p><img loading="lazy" alt="pico" src="https://lejencodes.github.io/app/assets/images/picorta.resized-8e98477ea1291ea54be822445c9f1bbe.jpg" width="400" height="400" class="img_ev3q"></p>]]></content>
         <author>
-            <name>Lejen</name>
-            <uri>https://lejencodes.com</uri>
+            <name>koficodes</name>
+            <uri>https://koficodes.xyz</uri>
         </author>
         <category label="vape" term="vape"/>
         <category label="life" term="life"/>
@@ -729,8 +700,8 @@ Updates: I have been messing around with the same recipe, just giving a try on s
 percentages of sour cream and I am having fun!</p>
 <p><a href="https://www.youtube.com/watch?v=tspdJ6hxqnc" target="_blank" rel="noopener noreferrer" title="The Best New York Cheesecake Recipe"><img loading="lazy" src="https://img.youtube.com/vi/tspdJ6hxqnc/0.jpg" alt="The Best New York Cheesecake Recipe | Emojoie Cuisine" class="img_ev3q"></a></p>]]></content>
         <author>
-            <name>Lejen</name>
-            <uri>https://lejencodes.com</uri>
+            <name>koficodes</name>
+            <uri>https://koficodes.xyz</uri>
         </author>
         <category label="baking" term="baking"/>
         <category label="life" term="life"/>
@@ -752,10 +723,92 @@ trigger that's calls out routine to complete business task.</p>
 can be submitted through REST method which can direct our flask app.route to call out python method and function that
 has been coded to do the job.</p>]]></content>
         <author>
-            <name>Lejen</name>
-            <uri>https://lejencodes.com</uri>
+            <name>koficodes</name>
+            <uri>https://koficodes.xyz</uri>
         </author>
         <category label="rpa" term="rpa"/>
         <category label="deployment" term="deployment"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Top 10 Design Principles]]></title>
+        <id>https://lejencodes.github.io/app/blog/top-10-design-principles</id>
+        <link href="https://lejencodes.github.io/app/blog/top-10-design-principles"/>
+        <updated>2022-04-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[What I learned and understand so far...]]></summary>
+        <content type="html"><![CDATA[<p>What I learned and understand so far...</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="1-divide-and-conquer">1. Divide and Conquer<a href="https://lejencodes.github.io/app/blog/top-10-design-principles#1-divide-and-conquer" class="hash-link" aria-label="Direct link to 1. Divide and Conquer" title="Direct link to 1. Divide and Conquer">​</a></h2>
+<p>This stay on the top as it's the most important principle, for instances when we are being provided with a business case
+with huge list of requirements, we started to confuse ourselves and often the solution came up straight away potentially
+not the best solution. The idea of divide is to decompose a given problem into two or more similar, sub-problems, which
+then we conquer by composing solutions to the give problem.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="2-increase-cohesion">2. Increase cohesion<a href="https://lejencodes.github.io/app/blog/top-10-design-principles#2-increase-cohesion" class="hash-link" aria-label="Direct link to 2. Increase cohesion" title="Direct link to 2. Increase cohesion">​</a></h2>
+<p>A good object oriented design must be loosely coupled and highly cohesive. This design principle have been created based
+on the idea of <code>Loose coupling and high cohesion</code>. Don't mixed up with Cohesion and Coupling, as cohesion refers to what
+a class, module or function can do. Low cohesion would means that it does great variety of action being unfocused on
+what it should do. Another way to think of this is to have something that could not be broken down further, and should
+be doing only one thing.</p>
+<p><strong>Example of Low Cohesion:</strong></p>
+<table><thead><tr><th>Staff</th></tr></thead><tbody><tr><td>check_email()</td></tr><tr><td>send_email()</td></tr><tr><td>email_validate()</td></tr><tr><td>get_salary()</td></tr></tbody></table>
+<p><strong>Example of High Cohesion:</strong></p>
+<table><thead><tr><th>Staff</th></tr></thead><tbody><tr><td>-salary</td></tr><tr><td>-email_add</td></tr><tr><td></td></tr><tr><td>set_salary()</td></tr><tr><td>get_salary()</td></tr><tr><td>set_email_add</td></tr><tr><td>get_email_add</td></tr></tbody></table>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="3-reduce-coupling">3. Reduce coupling<a href="https://lejencodes.github.io/app/blog/top-10-design-principles#3-reduce-coupling" class="hash-link" aria-label="Direct link to 3. Reduce coupling" title="Direct link to 3. Reduce coupling">​</a></h2>
+<p>This refers to how related or dependent of two classes / modules. Low coupled would mean that changing something in
+major should not affect the other. High coupling would increase the difficulties of code maintenance, a change of module
+usually forces a ripple effect of changes in other modules. The lesser dependencies the better</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="4-increase-abstract">4. Increase abstract<a href="https://lejencodes.github.io/app/blog/top-10-design-principles#4-increase-abstract" class="hash-link" aria-label="Direct link to 4. Increase abstract" title="Direct link to 4. Increase abstract">​</a></h2>
+<p>Abstraction is one of the key principles behind many of the OO design principles such as below and is the hardest in my
+opinion. The idea is to have a simplified version of something technical and the goal is to reduce complexity.</p>
+<ul>
+<li>Inheritance</li>
+<li>Polymorphism</li>
+<li>Composition</li>
+<li>Benefits of abstraction</li>
+<li>Code is easy to understand</li>
+<li>Manages change and the effect of change</li>
+<li>Creates cohesive code – it finds common fields</li>
+<li>Create loose coupling</li>
+</ul>
+<p><a href="https://en.wikipedia.org/wiki/Code_Complete" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Code_Complete</a></p>
+<blockquote>
+<p>abstraction is the ability to view a complex operation in a simplified form. A class interface provides an abstraction
+of the implementation that’s hidden behind the interface</p>
+</blockquote>
+<p>Some examples below:</p>
+<p><strong>Concrete</strong></p>
+<p>place_triangle(triangle)
+place_square(square)
+place_circle(circle)</p>
+<p><strong>Abstract</strong></p>
+<p>place_shape(shape)</p>
+<p>You will just lock down the attributes like x, y, areas</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="5-increase-re-usability">5. Increase re-usability<a href="https://lejencodes.github.io/app/blog/top-10-design-principles#5-increase-re-usability" class="hash-link" aria-label="Direct link to 5. Increase re-usability" title="Direct link to 5. Increase re-usability">​</a></h2>
+<p>Think of writing codes as re-usable as possible, the challenge part could be keeping the balance on spending more time
+to design and write a general function. I see this as a investment of time to reduce the future time needed to go back
+and understand the piece of code.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="6-design-for-flexibility">6. Design for flexibility<a href="https://lejencodes.github.io/app/blog/top-10-design-principles#6-design-for-flexibility" class="hash-link" aria-label="Direct link to 6. Design for flexibility" title="Direct link to 6. Design for flexibility">​</a></h2>
+<p>Think ahead and anticipate that the fact of there will be a change in the future, as and when the business grows,
+requirement changes and more. A-lot of time when comes to an end of project, I realised that I have to add some features
+and based on the way I have written my codes, that's not possible. Ending up spending more time to re-write and
+re-design the whole program.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="7-anticipate-obsolescence">7. Anticipate Obsolescence<a href="https://lejencodes.github.io/app/blog/top-10-design-principles#7-anticipate-obsolescence" class="hash-link" aria-label="Direct link to 7. Anticipate Obsolescence" title="Direct link to 7. Anticipate Obsolescence">​</a></h2>
+<ul>
+<li>Avoid early release and version of software</li>
+<li>Use software from reputable companies</li>
+<li>Use as few external dependencies as possible</li>
+<li>Avoid poorly documented or maintained projects</li>
+</ul>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="8-design-for-portability--scalability">8. Design for portability / scalability<a href="https://lejencodes.github.io/app/blog/top-10-design-principles#8-design-for-portability--scalability" class="hash-link" aria-label="Direct link to 8. Design for portability / scalability" title="Direct link to 8. Design for portability / scalability">​</a></h2>
+<p>Think ahead about possibility to have your program in other platform. Things can get harder when your client based grows
+and you do not have the ability to scale your program or port to another platform.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="9-design-for-testability">9. Design for testability<a href="https://lejencodes.github.io/app/blog/top-10-design-principles#9-design-for-testability" class="hash-link" aria-label="Direct link to 9. Design for testability" title="Direct link to 9. Design for testability">​</a></h2>
+<p>This is important especially for larger code based project. Design the code in a way that you are able to test the code.
+Think of test case, functional test, unit test, and find out a way to test the code.</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="10-design-defensively">10. Design defensively<a href="https://lejencodes.github.io/app/blog/top-10-design-principles#10-design-defensively" class="hash-link" aria-label="Direct link to 10. Design defensively" title="Direct link to 10. Design defensively">​</a></h2>
+<p>Idiot proof your code. Good error messages, handling all the invalid input, handling wrong output.</p>]]></content>
+        <author>
+            <name>koficodes</name>
+            <uri>https://koficodes.xyz</uri>
+        </author>
+        <category label="design-principles" term="design-principles"/>
     </entry>
 </feed>
