@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[6300],{84625:s=>{s.exports=JSON.parse('{"label":"comparison","permalink":"/blog/tags/comparison","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[2086],{64631:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/robotframework","page":1,"postsPerPage":5,"totalPages":1,"totalCount":1,"blogDescription":"kofi codes life!","blogTitle":"koficodes blog!"}')}}]);

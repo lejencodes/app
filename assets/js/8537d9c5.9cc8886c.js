@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[2431],{41401:a=>{a.exports=JSON.parse('{"label":"ppa","permalink":"/docs/tags/ppa","allTagsPath":"/docs/tags","count":1,"items":[{"id":"config-and-setup/ppa","title":"Personal Package Archive (PPA)","description":"PPA","permalink":"/docs/config-and-setup/ppa"}],"unlisted":false}')}}]);

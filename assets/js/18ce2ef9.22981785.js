@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[9998],{63542:e=>{e.exports=JSON.parse('{"title":"Web","slug":"/category/web","permalink":"/app/docs/category/web","navigation":{"previous":{"title":"Testing with MDX","permalink":"/app/docs/sandbox/testing-with-mdx"},"next":{"title":"Site","permalink":"/app/docs/category/site"}}}')}}]);

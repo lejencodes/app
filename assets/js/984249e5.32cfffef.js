@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[5905],{58236:e=>{e.exports=JSON.parse('{"title":"Config and Setup","slug":"/category/config-and-setup","permalink":"/docs/category/config-and-setup","navigation":{"previous":{"title":"P-A-R-A","permalink":"/docs/code-strategy/para"},"next":{"title":"Android","permalink":"/docs/category/android"}}}')}}]);

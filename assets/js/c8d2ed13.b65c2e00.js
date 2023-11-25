@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[4295],{68789:s=>{s.exports=JSON.parse('{"label":"pi-hole","permalink":"/blog/tags/pi-hole","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

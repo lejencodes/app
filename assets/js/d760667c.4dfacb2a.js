@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[8152],{86831:s=>{s.exports=JSON.parse('{"permalink":"/blog/tags/ssh","page":1,"postsPerPage":5,"totalPages":1,"totalCount":1,"blogDescription":"kofi codes life!","blogTitle":"koficodes blog!"}')}}]);

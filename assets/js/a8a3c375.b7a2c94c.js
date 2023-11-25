@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[1182],{78994:e=>{e.exports=JSON.parse('{"label":"second-brain","permalink":"/docs/tags/second-brain","allTagsPath":"/docs/tags","count":1,"items":[{"id":"Hello","title":"Hello","description":"Welcome to my mind-garden","permalink":"/docs/Hello"}],"unlisted":false}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[2901],{98001:s=>{s.exports=JSON.parse('{"label":"hugo","permalink":"/docs/tags/hugo","allTagsPath":"/docs/tags","count":1,"items":[{"id":"web/site/hugo-command","title":"Hugo command","description":"","permalink":"/docs/web/site/hugo-command"}],"unlisted":false}')}}]);

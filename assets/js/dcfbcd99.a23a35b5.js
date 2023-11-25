@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[3454],{62971:r=>{r.exports=JSON.parse('{"title":"CI","slug":"/category/ci","permalink":"/docs/category/ci","navigation":{"previous":{"title":"Programming","permalink":"/docs/category/programming"},"next":{"title":"Basic of ArgoCD","permalink":"/docs/programming/ci/basic-of-argocd"}}}')}}]);
