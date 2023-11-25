@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[9479],{90616:e=>{e.exports=JSON.parse('{"permalink":"/app/blog/tags/git","page":1,"postsPerPage":5,"totalPages":1,"totalCount":4,"blogDescription":"kofi codes life!","blogTitle":"koficodes blog!"}')}}]);

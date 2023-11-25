@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[2911],{4316:e=>{e.exports=JSON.parse('{"permalink":"/app/blog/tags/vscode","page":1,"postsPerPage":5,"totalPages":1,"totalCount":2,"blogDescription":"kofi codes life!","blogTitle":"koficodes blog!"}')}}]);

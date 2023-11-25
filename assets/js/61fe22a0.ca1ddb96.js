@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[8831],{8002:a=>{a.exports=JSON.parse('{"label":"mind-garden","permalink":"/app/blog/tags/mind-garden","allTagsPath":"/app/blog/tags","count":1,"unlisted":false}')}}]);

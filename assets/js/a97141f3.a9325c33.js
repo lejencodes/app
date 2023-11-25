@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[1101],{57828:e=>{e.exports=JSON.parse('{"title":"Site","slug":"/category/site","permalink":"/app/docs/category/site","navigation":{"previous":{"title":"Web","permalink":"/app/docs/category/web"},"next":{"title":"Hugo command","permalink":"/app/docs/web/site/hugo-command"}}}')}}]);
