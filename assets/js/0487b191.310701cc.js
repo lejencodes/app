@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[3273],{83573:e=>{e.exports=JSON.parse('{"title":"Editor","slug":"/category/editor","permalink":"/docs/category/editor","navigation":{"previous":{"title":"table-view-from-folder","permalink":"/docs/data-view/table-view-from-folder"},"next":{"title":"Nvim Tree","permalink":"/docs/editor/nvim-tree"}}}')}}]);
