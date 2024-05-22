@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[6602],{96112:e=>{e.exports=JSON.parse('{"title":"Programming","slug":"/category/programming","permalink":"/docs/category/programming","navigation":{"previous":{"title":"Setup vaultwarden","permalink":"/docs/homelab/setup-vaultwarden"},"next":{"title":"CI","permalink":"/docs/category/ci"}}}')}}]);

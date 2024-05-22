@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[8775],{7805:s=>{s.exports=JSON.parse('{"label":"lesson-learnt","permalink":"/blog/tags/lesson-learnt","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
