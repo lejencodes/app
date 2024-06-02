@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[6503],{1947:e=>{e.exports=JSON.parse('{"tag":{"label":"nvimtree","permalink":"/docs/tags/nvimtree","allTagsPath":"/docs/tags","count":1,"items":[{"id":"editor/nvim-tree","title":"Nvim Tree","description":"Open the treeNvimTreeOpen","permalink":"/docs/editor/nvim-tree"}],"unlisted":false}}')}}]);
