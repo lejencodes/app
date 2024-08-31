@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[4473],{86744:e=>{e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"AI","slug":"/category/ai","permalink":"/docs/category/ai","sidebar":"docsSidebar","navigation":{"previous":{"title":"Hello","permalink":"/docs/Hello"},"next":{"title":"ChatGPT","permalink":"/docs/category/chatgpt"}}}}')}}]);
