@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[8947],{56600:e=>{e.exports=JSON.parse('{"authors":[{"name":"koficodes","title":"Just a person","url":"https://koficodes.xyz","imageURL":"https://github.com/lejencodes.png","key":"koficodes","page":null,"count":15}]}')}}]);
