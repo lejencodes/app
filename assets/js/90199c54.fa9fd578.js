@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[4461],{16467:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/blog/page/3","page":3,"postsPerPage":5,"totalPages":3,"totalCount":15,"previousPage":"/blog/page/2","blogDescription":"kofi codes life!","blogTitle":"koficodes blog!"}}')}}]);

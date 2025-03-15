@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[2614],{64357:a=>{a.exports=JSON.parse('{"tag":{"label":"proxiedmail","permalink":"/docs/tags/proxiedmail","allTagsPath":"/docs/tags","count":1,"items":[{"id":"app/proxied-mail","title":"Proxied Mail","description":"Disposable email?","permalink":"/docs/app/proxied-mail"}],"unlisted":false}}')}}]);

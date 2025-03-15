@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp_src=self.webpackChunkapp_src||[]).push([[5294],{51986:s=>{s.exports=JSON.parse('{"tag":{"label":"DontPush","permalink":"/docs/tags/dont-push","allTagsPath":"/docs/tags","count":1,"items":[{"id":"NoPushCommit/sample-title","title":"Sample Title","description":"Link Image","permalink":"/docs/NoPushCommit/sample-title"}],"unlisted":false}}')}}]);
